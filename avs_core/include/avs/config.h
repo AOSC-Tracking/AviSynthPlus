@@ -63,6 +63,8 @@
 #   define SPARC
 #elif defined(__mips__)
 #   define MIPS
+#elif defined(__loongarch__)
+#   define LOONGARCH
 #else
 #   error Unsupported CPU architecture.
 #endif
